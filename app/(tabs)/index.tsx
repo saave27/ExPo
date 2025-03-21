@@ -21,7 +21,7 @@ export default function HomeScreen() {
       
       {/* Nombre y presentación */}
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title" style={styles.nameText}>Wilson Andres Saavedra Urbano</ThemedText>
+        <ThemedText type="title" style={styles.nameText}>Wilson Andres Saavedra</ThemedText>
         <HelloWave />
       </ThemedView>
 
@@ -31,25 +31,25 @@ export default function HomeScreen() {
 
       {/* Contacto con diseño mejorado */}
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle" style={styles.subtitleText}>Información</ThemedText>
+        <ThemedText type="subtitle" style={styles.subtitleText}>Información:</ThemedText>
 
         <ThemedView style={styles.contactRow}>
-          <Ionicons name="call-outline" size={24} color="#66B3FF" />
-          <ThemedText style={styles.contactText}>320 730 22 50</ThemedText>
+          <Ionicons name="call-outline" size={24} color="#555555" />
+          <ThemedText style={styles.contactText}>+57 315 549 8495</ThemedText>
         </ThemedView>
 
         <ThemedView style={styles.contactRow}>
-          <Ionicons name="mail-outline" size={24} color="#66B3FF" />
-          <ThemedText style={styles.contactText}>u20221203289@usco.edu.co</ThemedText>
+          <Ionicons name="mail-outline" size={24} color="#555555" />
+          <ThemedText style={styles.contactText}>andresss27.06@gmail.com</ThemedText>
         </ThemedView>
 
         <ThemedView style={styles.contactRow}>
-          <Ionicons name="id-card-outline" size={24} color="#66B3FF" />
-          <ThemedText style={styles.contactText}>ID: 1106226014</ThemedText>
+          <Ionicons name="id-card-outline" size={24} color="#555555" />
+          <ThemedText style={styles.contactText}>1.075.312.235</ThemedText>
         </ThemedView>
 
         <ThemedView style={styles.contactRow}>
-          <Ionicons name="location-outline" size={24} color="#66B3FF" />
+          <Ionicons name="location-outline" size={24} color="#555555" />
           <ThemedText style={styles.contactText}>CRA 15A #3-26</ThemedText>
         </ThemedView>
 
@@ -60,17 +60,18 @@ export default function HomeScreen() {
 
       {/* Sobre mí */}
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle" style={styles.subtitleText}>Sobre mí:</ThemedText>
-        <ThemedText>
+        <ThemedText style={styles.text}>Sobre mí:</ThemedText>
+        <ThemedText style={styles.bodyText}>
         Soy un profesional con una combinación única de experiencia y habilidades para la resolución de problemas tanto técnicas como creativas. Me desenvuelvo con éxito en entornos colaborativos y de trabajo en equipo, destacándome por mis habilidades de comunicación.
         </ThemedText>
-      </ThemedView>
+      </ThemedView >
       <ThemedView style={styles.divider} />
       {/* Experiencia */}
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle" style={styles.subtitleText}>Experiencia:</ThemedText>
-        <ThemedText>
-          <ThemedText style={styles.expTitle}></ThemedText>Cuento con 2.5 años de experiencia en atención al cliente como agente virtual bilingüe B2C y 1 año como analista de soporte de nivel 1 en el sector tecnológico con B2B. En este rol, trabajé con metodologías Scrum y Kanban, utilizando herramientas como Jira, Emma, MongoDB y Elmah.io, con el apoyo de ChatGPT.
+        <ThemedText style={styles.text}>Experiencia:</ThemedText>
+        <ThemedText style={styles.bodyText}>
+          <ThemedText style={styles.bodyText}></ThemedText>
+          Cuento con 2.5 años de experiencia en atención al cliente como agente virtual bilingüe B2C y 1 año como analista de soporte de nivel 1 en el sector tecnológico con B2B. En este rol, trabajé con metodologías Scrum y Kanban, utilizando herramientas como Jira, Emma, MongoDB y Elmah.io, con el apoyo de ChatGPT.
         Tengo conocimientos básicos en plataformas como Figma, AutoCAD, SolidWorks, Photoshop y Camtasia Studio, adquiridos de manera autodidacta. Además, tengo experiencia en programación con C++ y Python, y actualmente estoy cursando una técnica en Desarrollo de Software, donde he aprendido HTML, CSS, MySQL y Visual Studio.
         Mi compromiso con el aprendizaje continuo y mi capacidad de adaptación me permiten estar al día con las tendencias y tecnologías de la industria, estando preparado para enfrentar nuevos desafíos profesionales.
  </ThemedText>
@@ -82,20 +83,12 @@ export default function HomeScreen() {
         <ThemedText type="subtitle" style={styles.subtitleText}>Skills</ThemedText>
 
         <ThemedView style={styles.skillsGrid}>
-          <ThemedView style={styles.skillItem}>
-            <FontAwesome5 name="java" size={24} color="#F89820" />
-            <ThemedText style={styles.skillText}>Java</ThemedText>
-          </ThemedView>
 
           <ThemedView style={styles.skillItem}>
             <FontAwesome5 name="database" size={24} color="#4479A1" />
             <ThemedText style={styles.skillText}>MySQL</ThemedText>
           </ThemedView>
 
-          <ThemedView style={styles.skillItem}>
-            <FontAwesome5 name="react" size={24} color="#61DAFB" />
-            <ThemedText style={styles.skillText}>React</ThemedText>
-          </ThemedView>
 
           <ThemedView style={styles.skillItem}>
             <FontAwesome5 name="html5" size={24} color="#E34F26" />
@@ -105,21 +98,6 @@ export default function HomeScreen() {
           <ThemedView style={styles.skillItem}>
             <FontAwesome5 name="css3" size={24} color="#1572B6" />
             <ThemedText style={styles.skillText}>CSS</ThemedText>
-          </ThemedView>
-
-          <ThemedView style={styles.skillItem}>
-            <FontAwesome5 name="js-square" size={24} color="#F7DF1E" />
-            <ThemedText style={styles.skillText}>JavaScript</ThemedText>
-          </ThemedView>
-
-          <ThemedView style={styles.skillItem}>
-            <FontAwesome5 name="bootstrap" size={24} color="#7952B3" />
-            <ThemedText style={styles.skillText}>Bootstrap</ThemedText>
-          </ThemedView>
-
-          <ThemedView style={styles.skillItem}>
-            <FontAwesome5 name="git" size={24} color="#F05032" />
-            <ThemedText style={styles.skillText}>Git</ThemedText>
           </ThemedView>
 
           <ThemedView style={styles.skillItem}>
@@ -134,16 +112,29 @@ export default function HomeScreen() {
   );
 }
 
-// Estilos mejorados
+// Estilos
 const styles = StyleSheet.create({
-  titleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
+  bodyText: {
+    fontSize: 16,
+    color: '#333',
+    textAlign: 'justify',
+    lineHeight: 24,
   },
   stepContainer: {
     gap: 8,
     marginBottom: 16,
+    paddingHorizontal: 15,
+  },
+  text: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'justify',
+    color: '#333',
+  },
+  titleContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
   },
   reactLogo: {
     position: 'absolute',
@@ -180,13 +171,12 @@ const styles = StyleSheet.create({
   skillsGrid: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    justifyContent: 'space-between',
-    marginTop: 8,
+    justifyContent: 'center',
+    marginTop: 16,
   },
   skillItem: {
     alignItems: 'center',
-    width: '30%',
-    marginBottom: 12,
+    width: '25%',
   },
   skillText: {
     marginTop: 4,
