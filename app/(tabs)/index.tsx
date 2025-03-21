@@ -21,36 +21,36 @@ export default function HomeScreen() {
       
       {/* Nombre y presentación */}
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title" style={styles.nameText}>Crhistian Camilo Vargas Barrera</ThemedText>
+        <ThemedText type="title" style={styles.nameText}>Wilson Andres Saavedra Urbano</ThemedText>
         <HelloWave />
       </ThemedView>
 
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle" style={styles.subtitleText}>Técnico en Programación de Software</ThemedText>
+        <ThemedText type="subtitle" style={styles.subtitleText}>Analista de Soporte</ThemedText>
       </ThemedView>  
 
       {/* Contacto con diseño mejorado */}
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle" style={styles.subtitleText}>Contacto</ThemedText>
+        <ThemedText type="subtitle" style={styles.subtitleText}>Información</ThemedText>
 
         <ThemedView style={styles.contactRow}>
-          <Ionicons name="call-outline" size={24} color="#007AFF" />
+          <Ionicons name="call-outline" size={24} color="#66B3FF" />
           <ThemedText style={styles.contactText}>320 730 22 50</ThemedText>
         </ThemedView>
 
         <ThemedView style={styles.contactRow}>
-          <Ionicons name="mail-outline" size={24} color="#007AFF" />
+          <Ionicons name="mail-outline" size={24} color="#66B3FF" />
           <ThemedText style={styles.contactText}>u20221203289@usco.edu.co</ThemedText>
         </ThemedView>
 
         <ThemedView style={styles.contactRow}>
-          <Ionicons name="id-card-outline" size={24} color="#007AFF" />
+          <Ionicons name="id-card-outline" size={24} color="#66B3FF" />
           <ThemedText style={styles.contactText}>ID: 1106226014</ThemedText>
         </ThemedView>
 
         <ThemedView style={styles.contactRow}>
-          <Ionicons name="location-outline" size={24} color="#007AFF" />
-          <ThemedText style={styles.contactText}>Calle 41 # 22-66</ThemedText>
+          <Ionicons name="location-outline" size={24} color="#66B3FF" />
+          <ThemedText style={styles.contactText}>CRA 15A #3-26</ThemedText>
         </ThemedView>
 
       </ThemedView>
@@ -62,7 +62,7 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle" style={styles.subtitleText}>Sobre mí:</ThemedText>
         <ThemedText>
-          Soy una persona dedicada, responsable y cumplo con lo que se me asigna. Quiero desarrollar y poner en práctica mis conocimientos para completar proyectos de manera eficiente.
+        Soy un profesional con una combinación única de experiencia y habilidades para la resolución de problemas tanto técnicas como creativas. Me desenvuelvo con éxito en entornos colaborativos y de trabajo en equipo, destacándome por mis habilidades de comunicación.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.divider} />
@@ -70,11 +70,10 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle" style={styles.subtitleText}>Experiencia:</ThemedText>
         <ThemedText>
-          <ThemedText style={styles.expTitle}>🔹 Programación Básica:</ThemedText> He manejado y realizado proyectos en lenguajes como HTML, CSS y JavaScript, utilizando también Bootstrap y React para darles mayor complejidad.
-        </ThemedText>
-        <ThemedText>
-          <ThemedText style={styles.expTitle}>🔹 Programación Media:</ThemedText> Realicé un proyecto en Java con conexión a base de datos, usando Spring Boot para el desarrollo, ofreciendo seguridad y CRUD, logrando una aplicación robusta.
-        </ThemedText>
+          <ThemedText style={styles.expTitle}></ThemedText>Cuento con 2.5 años de experiencia en atención al cliente como agente virtual bilingüe B2C y 1 año como analista de soporte de nivel 1 en el sector tecnológico con B2B. En este rol, trabajé con metodologías Scrum y Kanban, utilizando herramientas como Jira, Emma, MongoDB y Elmah.io, con el apoyo de ChatGPT.
+        Tengo conocimientos básicos en plataformas como Figma, AutoCAD, SolidWorks, Photoshop y Camtasia Studio, adquiridos de manera autodidacta. Además, tengo experiencia en programación con C++ y Python, y actualmente estoy cursando una técnica en Desarrollo de Software, donde he aprendido HTML, CSS, MySQL y Visual Studio.
+        Mi compromiso con el aprendizaje continuo y mi capacidad de adaptación me permiten estar al día con las tendencias y tecnologías de la industria, estando preparado para enfrentar nuevos desafíos profesionales.
+ </ThemedText>
       </ThemedView>
       <ThemedView style={styles.divider} />
 
